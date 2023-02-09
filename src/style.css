@@ -1,0 +1,50 @@
+body{
+  font-family:"Karla", sans-serif ;
+  margin: 0;
+}
+
+main{
+  padding: 36px;
+
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: purple;
+  color: white;
+  padding: 20px;
+}
+.--h1{
+  font-size: 30px;
+  margin-right: auto;
+}
+
+.--h2{
+  font-size: 30px;
+  font-weight: 300;
+}
+
+
+.form{
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+.form--input{
+  font-family:"Karla", sans-serif ;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form--button{
+  grid-column: 1 / -1 ;
+  font-family:"Karla", sans-serif ;
+  border-radius: 5px;
+  background: purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
